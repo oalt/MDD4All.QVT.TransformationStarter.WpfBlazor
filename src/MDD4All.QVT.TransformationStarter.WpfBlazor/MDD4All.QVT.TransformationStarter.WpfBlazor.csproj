@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebView.Wpf" Version="6.0.553" />
+    <PackageReference Include="Microsoft.Extensions.Localization" Version="6.0.36" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\MDD4All.FileAccess.WPF\src\MDD4All.FileAccess.WPF\MDD4All.FileAccess.WPF-dev.csproj" />
+    <ProjectReference Include="..\..\..\MDD4All.QVT.TransformationStarter.Views\src\MDD4All.QVT.TransformationStarter.Views\MDD4All.QVT.TransformationStarter.Views.csproj" />
+    <ProjectReference Include="..\..\..\MDD4All.UI.BlazorComponents\src\MDD4All.UI.BlazorComponents\MDD4All.UI.BlazorComponents-dev.csproj" />
+  </ItemGroup>
+
+</Project>
